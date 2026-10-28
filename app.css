@@ -1,0 +1,62 @@
+/* monobit demonstration
+ * (c) 2023 Rob Hagemans
+ * licence: https://opensource.org/licenses/MIT
+
+ * fork of https://robhagemans.github.io/monobit/ but with more control
+ */
+
+body {
+    background-color: darkslategrey;
+    color: #aaa;
+    font-family: sans-serif;
+    margin-left: 1em;
+}
+
+p + h2, img + h2, a + h2 {
+    margin-top: 2em;
+}
+
+
+p {
+    margin: 0.5em 0 0 0;
+}
+
+img {
+    margin: 0.2em 0 0.5em 0;
+    image-rendering: pixelated;
+}
+
+h1, h2 {
+    display: block;
+    width: fit-content;
+    font-weight: bold;
+    background-color: black;
+    padding: 0.3rem 0.5rem 0.2rem 0.5rem;
+    height: 1.4em;
+}
+
+h1 {
+    color: skyblue;
+    font-size: 150%;
+    border: 0.2rem solid deepskyblue;
+}
+
+h2 {
+    color: orange;
+    font-size: 100%;
+    border: 0.2rem solid orangered;
+}
+
+
+button {
+    border-radius: 3px;
+    margin-right: 0.5rem;
+    margin-bottom: 0.2rem;
+    border: 1px solid black;
+    background: #666;
+    color: #000;
+}
+
+button:focus {
+    outline: 0;
+}
