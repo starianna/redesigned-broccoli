@@ -88,7 +88,7 @@ async function ensureFile(fontobj, localPath) {
 }
 
 async function showFont(fontobj) {
-    const sample = "0123456789"
+    const sample = "0123456789 abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
     const path = baseName(fontobj.path);
     if (!path) return;
